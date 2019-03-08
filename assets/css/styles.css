@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'geomanist';
+    src: url('/Users/johnrobertson/web_dev/Georgia_Tech_Coding_Bootcamp/homework/week_2/bootstrap_portfolio/assets/fonts/Geomanist-Complete-Webfont/Geomanist-Ultra-Webfont/geomanist-ultra-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'geomanist-light';
+    src: url('/Users/johnrobertson/web_dev/Georgia_Tech_Coding_Bootcamp/homework/week_2/bootstrap_portfolio/assets/fonts/Geomanist-Complete-Webfont/Geomanist-Thin-Webfont/geomanist-thin-webfont.woff') format('woff');
+}
+
+body {
+    font-family: 'geomanist-light';
+    background: black;
+    color: white;
+}
+
+h1, .navbar-brand, .navbar {
+    background: black;
+    color: white;
+    font-family: 'geomanist-light';
+    font-size: 1.6em;
+}
+
+.nav-link {
+    color: white;
+    border-bottom: 3px solid black;
+}
+
+.nav-link:hover {
+    color: lightskyblue;
+    border-bottom: 3px solid;
+}
+
+header {
+    background: #ffffff;
+    width: 100%;
+    padding: 0px;
+}
+
+.megaText {
+    font-family: 'geomanist';
+    font-size: 7em;
+    color: white;
+}
+
+#periodPink {
+    color: lightcoral;
+}
+
+#periodBlue {
+    color: lightseagreen;
+}
