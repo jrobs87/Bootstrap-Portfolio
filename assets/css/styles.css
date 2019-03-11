@@ -1,24 +1,36 @@
 @font-face {
     font-family: 'geomanist';
-    src: url('/Users/johnrobertson/web_dev/Georgia_Tech_Coding_Bootcamp/homework/week_2/bootstrap_portfolio/assets/fonts/Geomanist-Complete-Webfont/Geomanist-Ultra-Webfont/geomanist-ultra-webfont.woff') format('woff');
+    src: url('/assets/fonts/Geomanist-Complete-Webfont/Geomanist-Ultra-Webfont/geomanist-ultra-webfont.ttf');
 }
 
 @font-face {
     font-family: 'geomanist-light';
-    src: url('/Users/johnrobertson/web_dev/Georgia_Tech_Coding_Bootcamp/homework/week_2/bootstrap_portfolio/assets/fonts/Geomanist-Complete-Webfont/Geomanist-Thin-Webfont/geomanist-thin-webfont.woff') format('woff');
+    src: url('/assets/fonts/Geomanist-Complete-Webfont/Geomanist-Light-Webfont/geomanist-light-webfont.ttf');
 }
 
 body {
     font-family: 'geomanist-light';
     background: black;
     color: white;
+    padding-bottom: 200px;
 }
 
-h1, .navbar-brand, .navbar {
+h1, .navbar {
     background: black;
     color: white;
     font-family: 'geomanist-light';
     font-size: 1.6em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.navbar-brand {
+    font-family: 'geomanist';
+    font-size: 1.6em;
+    color: white;
+    border-bottom: 3px solid black;
 }
 
 .nav-link {
@@ -26,20 +38,19 @@ h1, .navbar-brand, .navbar {
     border-bottom: 3px solid black;
 }
 
-.nav-link:hover {
-    color: lightskyblue;
+.nav-link:hover, .navbar-brand:hover {
     border-bottom: 3px solid;
-}
-
-header {
-    background: #ffffff;
-    width: 100%;
-    padding: 0px;
 }
 
 .megaText {
     font-family: 'geomanist';
-    font-size: 7em;
+    font-size: 5em;
+    color: white;
+}
+
+.megaTextSmall {
+    font-family: 'geomanist-light';
+    font-size: 3em;
     color: white;
 }
 
@@ -48,5 +59,28 @@ header {
 }
 
 #periodBlue {
-    color: lightseagreen;
+    color: lightskyblue;
+}
+
+.pink {
+    color: lightcoral;
+}
+
+.blue {
+    color: lightskyblue;
+}
+
+.card {
+    background: black;
+    margin-bottom: 10%;
+}
+
+.btn-primary {
+    background: white;
+    color: black;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: lightcoral;
 }
