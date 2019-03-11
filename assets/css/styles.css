@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'geomanist-light';
-    src: url('/assets/fonts/Geomanist-Complete-Webfont/Geomanist-Light-Webfont/geomanist-light-webfont.ttf');
+    src: url('/assets/fonts/Geomanist-Complete-Webfont/Geomanist-Light-Webfont/geomanist-light-webfont.woff');
 }
 
 body {
@@ -13,6 +13,7 @@ body {
     background: black;
     color: white;
     padding-bottom: 200px;
+    font-family: arial;
 }
 
 h1, .navbar {
