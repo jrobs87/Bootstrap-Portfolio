@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'geomanist';
-    src: url('/assets/fonts/Geomanist-Complete-Webfont/Geomanist-Ultra-Webfont/geomanist-ultra-webfont.ttf');
+    src: url('assets/fonts/Geomanist-Complete-Webfont/Geomanist-Ultra-Webfont/geomanist-ultra-webfont.ttf');
 }
 
 @font-face {
     font-family: 'geomanist-light';
-    src: url('/assets/fonts/Geomanist-Complete-Webfont/Geomanist-Light-Webfont/geomanist-light-webfont.woff');
+    src: url('assets/fonts/Geomanist-Complete-Webfont/Geomanist-Light-Webfont/geomanist-light-webfont.woff');
 }
 
 body {
